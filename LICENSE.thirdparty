@@ -2,4 +2,7 @@ Portions of this code are adapted from:
 
 "Fast Neural Style Transfer" by Erik Lindernoren  
 https://github.com/eriklindernoren/Fast-Neural-Style-Transfer  
+
+This project specificly adapts the utils.py and models.py from Erik Lindernoren work.
+
 Licensed under the MIT License.

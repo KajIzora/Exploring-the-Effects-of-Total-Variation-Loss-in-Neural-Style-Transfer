@@ -1,0 +1,14 @@
+Neural Style Transfer Training Configuration
+==========================================
+Dataset Path     : data/train2014_40k
+Style Image Path : data/stylized/paysanne-couchant-1882.jpg
+Epochs           : 5
+Batch Size       : 12
+Image Size       : 256
+Style Size       : 256
+Learning Rate    : 0.001
+LAMBDA_CONTENT   : 1.0e+05
+LAMBDA_STYLE     : 1.0e+10
+TV Loss Active   : True
+TV Weight        : 1.0e-06
+Total Training Time: 5005.10 seconds

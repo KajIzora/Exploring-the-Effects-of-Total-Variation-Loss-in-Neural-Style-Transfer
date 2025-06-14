@@ -74,7 +74,7 @@ def tv_loss(x):
         (x[:, :, :, :-1] - x[:, :, :, 1:]).abs().sum()         # horizontal diffs
     )
 
-TV_WEIGHT = 1e-6     # tweak 1e-6 ↔ 1e-5 to taste
+TV_WEIGHT = 1e-6     
 # ─── training loop with optional TV loss ───────────────────────────────────────
 global_step = 0
 start_time = time.time()

@@ -29,7 +29,8 @@ This project implements the fast neural style transfer algorithm, which trains a
 │       ├── output_40k_5epochs_tv/     # Model trained with TV loss
 │       ├── output_40k_5epochs_notv/   # Model trained without TV loss
 │       └── comps/                     # Comparison visualizations
-└── README.md
+├── README.md
+└── Exploring-the-Effects-of-Total-Variation-Loss-in-Neural-Style-Transfer.pdf # In depth discussion of results 
 ```
 
 ## Architecture

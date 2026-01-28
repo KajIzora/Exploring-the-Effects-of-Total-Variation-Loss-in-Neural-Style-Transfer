@@ -130,30 +130,6 @@ The total loss is composed of:
 Total Loss = λ_content × Content Loss + λ_style × Style Loss + λ_tv × TV Loss
 ```
 
-## Results
-
-The AI-driven matching pipeline demonstrates significant improvements in efficiency, quality, and fairness compared to traditional manual matching processes. Key results include:
-
-### Efficiency Improvements
-- **Processing Time**: The full automated pipeline processes matches in approximately 15 minutes, compared to the traditional manual process that takes a team of three people up to three weeks
-- **Match Reduction**: The pipeline effectively reduces the number of potential matches from tens of thousands to a manageable number (e.g., from 27,700 to 993 in the 2024 cohort)
-- **Manual Review Time**: Manual auditing of 100 student-company matches across 25 companies took approximately 3 hours, with all matches found to be qualified candidates
-
-### Quality and Accuracy
-- **High Satisfaction Rate**: The matching process maintains a satisfaction rate of over 90% based on survey data
-- **Alignment Scores**: Strong matches typically have overall alignment scores of 8 or above, with 94% of companies receiving qualified candidates (scores ≥ 8)
-- **Match Quality**: All matches reviewed in manual audits were considered strong candidates, demonstrating the effectiveness of the AI-driven approach
-
-### Fairness and Distribution
-- **Balanced Matching**: The pipeline ensures more equitable distribution of matches across students and companies, preventing overmatching where a few students dominate opportunities
-- **Match Distribution**: Using the AI pipeline, match distributions range from 2-7 for companies and 1-2 for students, compared to the current pipeline's range of 0-294 for companies and 1-72 for students
-
-### Cost Efficiency
-- **API Cost Optimization**: Through strategic filtering, the pipeline reduces API costs from approximately $900 (if processing all matches) to around $30 for the 2024 cohort
-- **Scalability**: The automated approach is designed to scale effectively as the program grows, handling increasing volumes without proportional increases in time or costs
-
-For detailed methodology, implementation details, challenges, and areas for improvement, please refer to the full document: `Enhancing the Efficiency and Quality of Internship Matching_ An AI-Driven Approach to Student-Company Alignment.pdf`
-
 ## Device Support
 
 The code automatically detects and uses:
